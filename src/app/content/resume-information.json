@@ -1,0 +1,145 @@
+{
+  "name": "Michael Broussard",
+  "title": "Senior Frontend Engineer (Angular)",
+  "phoneNumber": "(281) 739-0596",
+  "gitHubLink": "https://github.com/broussardmichael",
+  "gitHubName": "github/broussardmichael",
+  "linkedin": "www.linkedin.com/in/michael-broussard-156a29333",
+  "email": "broussard.michael88@gmail.com",
+  "experience": [
+    {
+      "company": "Current Lighting",
+      "position": "Senior Frontend Engineer (Angular)",
+      "startDate": "2/1/2021",
+      "endDate": "",
+      "responsibilities": [
+        "Mastered Angular, Angular Material, Kendo UI, RxJS, Jasmine, and TypeScript on the job, applying best practices to develop scalable, performant front-end solutions.",
+        "Defined and maintained an organized file structure, implementing Angular architecture patterns with an emphasis on smart and dumb components for optimized reusability and clarity.",
+        "Developed robust services for API integration, implementing HTTP interceptors, error logging, and HTTP method handling to ensure efficient and secure communication with back-end services.",
+        "Managed Angular framework upgrades from version 11 to 18, ensuring compatibility and stability with each release cycle by maintaining all dependencies and third-party libraries.",
+        "Authored comprehensive unit tests in Jasmine, achieving high code coverage and ensuring the reliability and maintainability of the frontend.",
+        "Mentored junior developers in S.O.L.I.D principles, Angular best practices, TypeScript, RxJS, SCSS, and design patterns, fostering a culture of clean code and best practices.",
+        "Performed peer code reviews and collaborated through paired programming, driving continuous improvement and innovative solutions across the team.",
+        "Refactored the entire front-end architecture from a large-module, three-part structure to standalone components in Angular 18, halving the bundle size and increasing modularity by separating app-wide functionality from feature-specific code.",
+        "Collaborated closely with the backend team and contributed to C# business logic and SQL query optimizations to ensure seamless integration of front and back-end processes."
+      ],
+      "solutions": [
+        "Designed a streamlined solution for handling SignalR request responses using a command pattern and a custom service, simplifying API integration and enabling developers to focus on core functionality.",
+        "Built a dynamic UI generation system that constructs controls based on JSON instructions from the server, empowering junior developers to create device management features directly from the database.",
+        "Developed a mock data interceptor to allow front-end development in a disconnected state, significantly boosting productivity by simulating API responses during back-end development.",
+        "Created reusable, extendable data-editing components with unique expand-from-screen-edge animations, facilitating mobile-responsive designs and enhancing user experience across layouts.",
+        "Implemented a client-side authentication and role-based access control system using server-generated access tokens, including background token refresh for uninterrupted user sessions."
+      ],
+      "location": "Round Rock, Texas; Remote"
+    },
+    {
+      "company": "Detechtion",
+      "position": "Full Stack Software Engineer",
+      "startDate": "8/1/2012",
+      "endDate": "5/1/2020",
+      "responsibilities": [
+        "Developed the front end for a mobile single-page application (SPA) using Knockout.js, jQuery, JavaScript, and CSS, delivering a responsive, user-friendly interface.",
+        "Implemented back-end features in Node.js to manipulate and serve data from a NoSQL database, supporting real-time data requirements for mobile use cases.",
+        "Engineered the front end for an IoT-based remote monitoring application using JavaScript and Bootstrap, enabling users to track and manage oil and gas assets remotely.",
+        "Built and maintained C# and ASP.NET back-end services, utilizing Entity Framework with LINQ and SQL databases to efficiently query, update, and manipulate data for the front end.",
+        "Optimized SQL queries, cursors, and stored procedures in SQL Management Studio, improving data retrieval performance and application responsiveness.",
+        "Ensured comprehensive testing coverage by implementing client-side tests in Mocha and server-side tests in NUnit, improving the reliability and maintainability of the application.",
+        "Authored modules and detailed documentation on coding best practices, testing strategies, client-side development standards, and complex technical concepts to support team onboarding and knowledge sharing."
+      ],
+      "location": "Houston, Texas"
+    },
+    {
+      "company": "NetIQ, Telenetwork, Worley Parsons, UH Testing Center",
+      "position": "SE Intern, IT Technician",
+      "startDate": "1/1/2007",
+      "endDate": "8/1/2012",
+      "responsibilities": [
+        "Information by request"
+      ],
+      "location": "Houston, Texas"
+    }
+  ],
+  "skills": {
+    "proficient": {
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "frameworks": [
+        "Angular 18+"
+      ],
+      "libraries": [
+        "RxJS",
+        "Jasmine",
+        "Angular Materials",
+        "Kendo UI"
+      ],
+      "tools": [
+        "Sass"
+      ],
+      "development_methodologies": [
+        "Git",
+        "SCRUM"
+      ]
+    },
+    "familiar": {
+      "languages": [
+        "C#",
+        "SQL"
+      ],
+      "frameworks": [
+        "ASP.NET Core",
+        ".NET Core"
+      ],
+      "libraries": [
+        "Entity Framework",
+        "LINQ"
+      ],
+      "databases": [
+        "Microsoft Sql Server",
+        "PostgreSQL",
+        "NoSQL"
+      ],
+      "runtime": [
+        "Node.js"
+      ]
+    },
+    "learning": [
+      "Next.js",
+      "House Renovation"
+    ]
+  },
+  "education": {
+    "university": "University Of Houston",
+    "startDate": "8/1/2008",
+    "endDate": "12/1/2012",
+    "degree": "Bachelor of Science in Computer Science"
+  },
+  "hobbies": [
+    {
+      "type": "Outdoor Activities",
+      "activities": [
+        "Avid Fisherman (Conventional and Fly)",
+        "Hobie PA 14 (360)",
+        "Half Ironman"
+      ]
+    },
+    {
+      "type": "Adventure & Leisure",
+      "activities": [
+        "(Trekking) Laugavegur Trail",
+        "Advanced Open Water Scuba Diver",
+        "Backgammon"
+      ]
+    },
+    {
+      "type": "Reading",
+      "activities": [
+        "Brandon Sanderson",
+        "Robert Jordan"
+      ]
+    }
+  ]
+}
