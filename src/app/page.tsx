@@ -3,7 +3,7 @@ import Content from "../components/content";
 import resumeInformation from "./content/resume-information.json"
 import {IContentInformation, IHeaderInformation, IResumeInformation} from "./interfaces/resume-information.interface";
 
-export default function Home() {
+export default function Resume() {
     const resume: IResumeInformation = resumeInformation as IResumeInformation;
 
     const headerInfo: IHeaderInformation = {
@@ -24,7 +24,13 @@ export default function Home() {
     };
 
     return (
-        <div className="m-auto h-full w-full max-w-4xl flex items-center flex-col justify-center">
-            <Header {...headerInfo}/><Content {...contentInfo}/></div>
+        <div className="m-auto h-full w-full max-w-6xl flex items-center flex-col shadow-lg">
+            <header className="h-[20vh] w-full">
+                <Header {...headerInfo}/>
+            </header>
+            <main className="flex-grow w-full">
+                <Content {...contentInfo}/>
+            </main>
+        </div>
     );
 }

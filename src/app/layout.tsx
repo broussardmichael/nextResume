@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
     return (
         <html className={`${domoArigatoMrRoboto.className}`} lang="en">
-        <body className="flex bg-background">
+        <body className="bg-background">
         {children}
         </body>
         </html>

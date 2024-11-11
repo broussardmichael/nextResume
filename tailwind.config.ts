@@ -9,9 +9,9 @@ const config: Config = {
           primary:'red',
           secondary: 'green',
           background: '#FFFFFF',
-          header: '#36454F',
-          content: '#6082B6',
-          altContent: '#F4F4F4'
+          header: '#D0D0D0',
+          content: '#F4F4F4',
+          altContent: '#EAEAEA'
       }
     }},
   plugins: [],

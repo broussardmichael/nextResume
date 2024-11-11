@@ -10,7 +10,7 @@
     {
       "company": "Current Lighting",
       "position": "Senior Frontend Engineer (Angular)",
-      "startDate": "2/1/2021",
+      "startDate": "2/2021",
       "endDate": "",
       "responsibilities": [
         "Mastered Angular, Angular Material, Kendo UI, RxJS, Jasmine, and TypeScript on the job, applying best practices to develop scalable, performant front-end solutions.",
@@ -35,8 +35,8 @@
     {
       "company": "Detechtion",
       "position": "Full Stack Software Engineer",
-      "startDate": "8/1/2012",
-      "endDate": "5/1/2020",
+      "startDate": "8/2012",
+      "endDate": "5/2020",
       "responsibilities": [
         "Developed the front end for a mobile single-page application (SPA) using Knockout.js, jQuery, JavaScript, and CSS, delivering a responsive, user-friendly interface.",
         "Implemented back-end features in Node.js to manipulate and serve data from a NoSQL database, supporting real-time data requirements for mobile use cases.",
@@ -51,8 +51,8 @@
     {
       "company": "NetIQ, Telenetwork, Worley Parsons, UH Testing Center",
       "position": "SE Intern, IT Technician",
-      "startDate": "1/1/2007",
-      "endDate": "8/1/2012",
+      "startDate": "1/2007",
+      "endDate": "8/2012",
       "responsibilities": [
         "Information by request"
       ],
@@ -113,8 +113,8 @@
   },
   "education": {
     "university": "University Of Houston",
-    "startDate": "8/1/2008",
-    "endDate": "12/1/2012",
+    "startDate": "8/2008",
+    "endDate": "12/2012",
     "degree": "Bachelor of Science in Computer Science"
   },
   "hobbies": [

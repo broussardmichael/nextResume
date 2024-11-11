@@ -4,8 +4,7 @@ import Skill from "@/components/skill";
 export default function Skills(skills: ISkills) {
     const {proficient, familiar, learning} = skills;
     return (
-        <div>
-            <h1 className="text-xl">Skills</h1>
+        <div className="mb-6">
             <h2>Proficient</h2>
             <Skill {...proficient}/>
             <h2>Familiar</h2>

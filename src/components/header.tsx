@@ -6,10 +6,10 @@ export default function Header(props: IHeaderInformation) {
     const {name, title, phoneNumber, gitHubLink, gitHubName, linkedin, email} = props;
 
     return (
-        <header className="w-full h-1/4 flex justify-between space bg-header">
+        <div className="h-inherit flex justify-between bg-header">
             <Title name={name} title={title}/>
             <Address phoneNumber={phoneNumber} gitHubLink={gitHubLink} gitHubName={gitHubName} linkedin={linkedin}
                      email={email}/>
-        </header>
+        </div>
     );
 }
