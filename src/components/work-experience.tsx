@@ -7,7 +7,7 @@ export default function WorkExperience(props: IContentInformation) {
         <main>
             <SectionTitle title='Experience'/>
             {props.experience.map((experience: IExperience, index) => (
-                <section key={index} className="mb-6">
+                <section key={index} className="content-section">
                     <Experience {...experience} />
                 </section>
             ))}

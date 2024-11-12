@@ -1,10 +1,9 @@
 {
   "name": "Michael Broussard",
-  "title": "Senior Frontend Engineer (Angular)",
+  "title": "Senior Frontend Engineer",
   "phoneNumber": "(281) 739-0596",
   "gitHubLink": "https://github.com/broussardmichael",
   "gitHubName": "github/broussardmichael",
-  "linkedin": "www.linkedin.com/in/michael-broussard-156a29333",
   "email": "broussard.michael88@gmail.com",
   "objective": "To continue growing as a Frontend Developer by leveraging my expertise in modern web technologies and user-centric design principles to build scalable, efficient, and engaging applications.",
   "experience": [
@@ -46,16 +45,6 @@
         "Optimized SQL queries, cursors, and stored procedures in SQL Management Studio, improving data retrieval performance and application responsiveness.",
         "Ensured comprehensive testing coverage by implementing client-side tests in Mocha and server-side tests in NUnit, improving the reliability and maintainability of the application.",
         "Authored modules and detailed documentation on coding best practices, testing strategies, client-side development standards, and complex technical concepts to support team onboarding and knowledge sharing."
-      ],
-      "location": "Houston, Texas"
-    },
-    {
-      "company": "NetIQ, Telenetwork, Worley Parsons, UH Testing Center",
-      "position": "SE Intern, IT Technician",
-      "startDate": "1/2007",
-      "endDate": "8/2012",
-      "responsibilities": [
-        "Information by request"
       ],
       "location": "Houston, Texas"
     }

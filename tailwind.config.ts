@@ -6,19 +6,11 @@ const config: Config = {
   ],
   theme: {extend: {
       colors: {
-          primary:'red',
-          secondary: 'green',
-          background: '#FFFFFF',
-          careerExperience: '#F4F4F4',
-          workExperience: '#FFFFFF'
+          background: '#F5F5F5',
+          careerExperience: '#ececec',
+          workExperience: '#f9fafb'
       }
     }},
   plugins: [],
 };
 export default config;
-
-/*
-#EAEAEA
-#F4F4F4
-#D0D0D0
-*/

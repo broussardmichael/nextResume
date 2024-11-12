@@ -9,9 +9,9 @@ export default function Experience(props: IExperience) {
     return (
         <>
             <h3>{position}</h3>
-            <div className="flex justify-between">
-                <p className="text-gray-600 mb-3">{company} - {location}</p>
-                <p className="text-gray-600">{startDate} - {endDate ? endDate : 'Current'}</p>
+            <div className="flex justify-between text-gra">
+                <p className="mb-3">{company} - {location}</p>
+                <p>{startDate} - {endDate ? endDate : 'Current'}</p>
             </div>
             <ul className="ml-5 list-disc">{experienceHtml}</ul>
         </>

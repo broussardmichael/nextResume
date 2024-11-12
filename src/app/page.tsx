@@ -13,7 +13,6 @@ export default function Resume() {
         phoneNumber: resume.phoneNumber,
         gitHubLink: resume.gitHubLink,
         gitHubName: resume.gitHubName,
-        linkedin: resume.linkedin,
         email: resume.email,
     };
 
@@ -26,8 +25,8 @@ export default function Resume() {
     };
 
     return (
-        <div className="main-columns m-auto h-full w-full justify-between max-w-6xl flex mt-1 mb-2 shadow-lg border">
-            <div className="bg-careerExperience border-r">
+        <div className="main-columns w-full justify-between max-w-6xl flex shadow-lg print:shadow-none border print:border-0">
+            <div className="bg-careerExperience border-r print:border-none">
                 <Header {...headerInfo}/>
                 <CareerExperience {...contentInfo}/>
             </div>

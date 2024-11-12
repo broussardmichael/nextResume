@@ -4,7 +4,6 @@ export interface IResumeInformation {
     "phoneNumber": string;
     "gitHubLink": string;
     "gitHubName": string;
-    "linkedin": string;
     "email": string;
     "objective": string;
     "experience": IExperience[],
@@ -24,7 +23,6 @@ export interface IHeaderInformation {
     "phoneNumber": string;
     "gitHubLink": string;
     "gitHubName": string;
-    "linkedin": string;
     "email": string;
 }
 
