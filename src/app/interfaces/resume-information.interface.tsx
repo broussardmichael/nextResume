@@ -6,8 +6,9 @@ export interface IResumeInformation {
     "gitHubName": string;
     "linkedin": string;
     "email": string;
+    "objective": string;
     "experience": IExperience[],
-    "skills": ISkills,
+    "skills": Partial<ISkillTopics>,
     "education": IEducation,
     "hobbies": IHobby[];
 }
@@ -28,8 +29,9 @@ export interface IHeaderInformation {
 }
 
 export interface IContentInformation {
+    "objective": string;
     "experience": IExperience[],
-    "skills": ISkills,
+    "skills": Partial<ISkillTopics>,
     "education": IEducation,
     "hobbies": IHobby[];
 }
@@ -42,12 +44,6 @@ export interface IExperience {
     "responsibilities": string[];
     "location": string;
     "solutions"?: string[];
-}
-
-export interface ISkills {
-    "proficient": Partial<ISkillTopics>,
-    "familiar": Partial<ISkillTopics>,
-    "learning": string[]
 }
 
 export interface ISkillTopics {

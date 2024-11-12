@@ -9,11 +9,16 @@ const config: Config = {
           primary:'red',
           secondary: 'green',
           background: '#FFFFFF',
-          header: '#D0D0D0',
-          content: '#F4F4F4',
-          altContent: '#EAEAEA'
+          careerExperience: '#F4F4F4',
+          workExperience: '#FFFFFF'
       }
     }},
   plugins: [],
 };
 export default config;
+
+/*
+#EAEAEA
+#F4F4F4
+#D0D0D0
+*/

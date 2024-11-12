@@ -9,3 +9,46 @@ html, body {
 .h-inherit {
     height: inherit;
 }
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.75em;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+h4 {
+    font-weight: 500;
+}
+
+.category {
+    font-weight: 500;
+    white-space: nowrap;
+    margin-right: .25em;
+}
+
+.contact-icon {
+    height: 1em;
+    width: 1em;
+    margin-right: 1em;
+}
+
+.main-columns {
+    > div {
+        padding: 1em;
+    }
+    > div:first-child {
+        width: 42%;
+    }
+    > div:last-child {
+        width: 57%;
+    }
+}

@@ -3,16 +3,17 @@ import {IExperience} from "../app/interfaces/resume-information.interface";
 export default function Experience(props: IExperience) {
     const {company, position, location, startDate, endDate, responsibilities} = props;
 
-    const experienceHtml = responsibilities?.map((item: string, index: number) => <li className = "list-inside" key={index}>{item}</li>)
+    const experienceHtml = responsibilities?.map((item: string, index: number) =>
+        <li className="mb-1" key={index}>{item}</li>)
 
     return (
-            <div className="mb-6">
-                <div className="flex justify-between">
-                    <h1 className="text-xl font-semibold">{position}</h1>
-                    <p className="italic pl-4">{startDate} - {endDate ? endDate : 'Current'}</p>
-                </div>
-                <h3 className="text-gray-600 pl-4 mb-3">{company} - {location}</h3>
-                <ul className="list-disc">{experienceHtml}</ul>
+        <>
+            <h3>{position}</h3>
+            <div className="flex justify-between">
+                <p className="text-gray-600 mb-3">{company} - {location}</p>
+                <p className="text-gray-600">{startDate} - {endDate ? endDate : 'Current'}</p>
             </div>
+            <ul className="ml-5 list-disc">{experienceHtml}</ul>
+        </>
     )
 }

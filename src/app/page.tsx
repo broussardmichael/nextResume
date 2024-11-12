@@ -1,7 +1,8 @@
 import Header from "../components/header";
-import Content from "../components/content";
 import resumeInformation from "./content/resume-information.json"
 import {IContentInformation, IHeaderInformation, IResumeInformation} from "./interfaces/resume-information.interface";
+import CareerExperience from "@/components/career-experience";
+import WorkExperience from "@/components/work-experience";
 
 export default function Resume() {
     const resume: IResumeInformation = resumeInformation as IResumeInformation;
@@ -21,16 +22,18 @@ export default function Resume() {
         skills: resume.skills,
         education: resume.education,
         hobbies: resume.hobbies,
+        objective: resume.objective,
     };
 
     return (
-        <div className="m-auto h-full w-full max-w-6xl flex items-center flex-col shadow-lg">
-            <header className="h-[20vh] w-full">
+        <div className="main-columns m-auto h-full w-full justify-between max-w-6xl flex mt-1 mb-2 shadow-lg border">
+            <div className="bg-careerExperience border-r">
                 <Header {...headerInfo}/>
-            </header>
-            <main className="flex-grow w-full">
-                <Content {...contentInfo}/>
-            </main>
+                <CareerExperience {...contentInfo}/>
+            </div>
+            <div className="bg-workExperience">
+                <WorkExperience {...contentInfo}/>
+            </div>
         </div>
     );
 }

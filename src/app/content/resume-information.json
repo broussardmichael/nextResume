@@ -6,6 +6,7 @@
   "gitHubName": "github/broussardmichael",
   "linkedin": "www.linkedin.com/in/michael-broussard-156a29333",
   "email": "broussard.michael88@gmail.com",
+  "objective": "To continue growing as a Frontend Developer by leveraging my expertise in modern web technologies and user-centric design principles to build scalable, efficient, and engaging applications.",
   "experience": [
     {
       "company": "Current Lighting",
@@ -60,61 +61,33 @@
     }
   ],
   "skills": {
-    "proficient": {
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "frameworks": [
-        "Angular 18+"
-      ],
-      "libraries": [
-        "RxJS",
-        "Jasmine",
-        "Angular Materials",
-        "Kendo UI"
-      ],
-      "tools": [
-        "Sass"
-      ],
-      "development_methodologies": [
-        "Git",
-        "SCRUM"
-      ]
-    },
-    "familiar": {
-      "languages": [
-        "C#",
-        "SQL"
-      ],
-      "frameworks": [
-        "ASP.NET Core",
-        ".NET Core"
-      ],
-      "libraries": [
-        "Entity Framework",
-        "LINQ"
-      ],
-      "databases": [
-        "Microsoft Sql Server",
-        "PostgreSQL",
-        "NoSQL"
-      ],
-      "runtime": [
-        "Node.js"
-      ]
-    },
-    "learning": [
-      "Next.js",
-      "House Renovation"
+    "languages": [
+      "TypeScript",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "frameworks": [
+      "Angular 18+"
+    ],
+    "libraries": [
+      "RxJS",
+      "Jasmine",
+      "Angular Materials",
+      "Kendo UI"
+    ],
+    "tools": [
+      "Sass"
+    ],
+    "development_methodologies": [
+      "Git",
+      "SCRUM"
     ]
   },
   "education": {
     "university": "University Of Houston",
-    "startDate": "8/2008",
-    "endDate": "12/2012",
+    "startDate": "2008",
+    "endDate": "2012",
     "degree": "Bachelor of Science in Computer Science"
   },
   "hobbies": [
@@ -122,24 +95,25 @@
       "type": "Outdoor Activities",
       "activities": [
         "Avid Fisherman (Conventional and Fly)",
-        "Hobie PA 14 (360)",
+        "Hobie PA 14 (360)"
+      ]
+    },
+    {
+      "type": "Adventures",
+      "activities": [
+        "(Trekking) Laugavegur Trail",
+        "Advanced Open Water Scuba Diver",
         "Half Ironman"
       ]
     },
     {
-      "type": "Adventure & Leisure",
-      "activities": [
-        "(Trekking) Laugavegur Trail",
-        "Advanced Open Water Scuba Diver",
-        "Backgammon"
-      ]
-    },
-    {
-      "type": "Reading",
+      "type": "Reading & Leisure",
       "activities": [
         "Brandon Sanderson",
-        "Robert Jordan"
+        "Robert Jordan",
+        "Backgammon"
       ]
     }
   ]
 }
+
