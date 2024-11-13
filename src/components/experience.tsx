@@ -9,7 +9,7 @@ export default function Experience(props: IExperience) {
     return (
         <>
             <h3>{position}</h3>
-            <div className="flex justify-between text-gra">
+            <div className="flex justify-between">
                 <p className="mb-3">{company} - {location}</p>
                 <p>{startDate} - {endDate ? endDate : 'Current'}</p>
             </div>
